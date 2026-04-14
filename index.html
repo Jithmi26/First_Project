@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Customer Inquiry Form</title>
+  </head>
+  <body>
+    <form action="#" method="POST">
+      <label for="name">Full Name</label
+      ><input
+        type="text"
+        id="name"
+        name="name"
+        required
+        placeholder="Enter your full name"
+      />
+      <label for="email">Email</label>
+      <input
+        type="email"
+        id="email"
+        name="email"
+        required
+        placeholder="Enter your email"
+      />
+      <label for="phone">Phone Number</label>
+      <input type="tel" id="phone" name="phone" placeholder="e.g. 0771234567" />
+      <label for="type">Customer Type</label
+      ><select id="type" name="type">
+        <option value="residential">Residential</option>
+        <option value="commercial">Commercial</option>
+        <option value="industrial">Industrial</option>
+      </select>
+      <label for="system">Preferred System Type</label>
+      <select id="system" name="system">
+        <option value="ongrid">On-Grid</option>
+        <option value="offgrid">Off-Grid</option>
+        <option value="hybrid">Hybrid</option></select
+      ><label for="message">Message</label>
+      <textarea
+        id="message"
+        name="message"
+        rows="4"
+        placeholder="Type your message"
+      ></textarea>
+      <button type="submit">Submit</button>
+    </form>
+  </body>
+</html>
